@@ -2,7 +2,14 @@
 
 A simple multi-page AirBnB clone that uses server-side Javascript to display the information from queries to web pages via SQL queries.
 
-## Functionality:
+## Getting Set Up
+
+- Clone your repository onto your local device.
+- Install dependencies using the ```npm install``` command.
+- Start the web server using the ```npm run local``` command. The app will be served at http://localhost:3000/.
+- Go to http://localhost:3000/ in your browser.
+
+## Functionality
 
 ### Listings Directory
 ![Listings](https://github.com/pmcall/lighterbnb/blob/master/images/Listings.png?raw=true)
@@ -10,7 +17,6 @@ Displays properties and their details to easily browse the available properties.
 
 ### User database and logins
 ![Sign up](https://github.com/pmcall/lighterbnb/blob/master/images/Sign%20up.png?raw=true)
-
 ![Login](https://github.com/pmcall/lighterbnb/blob/master/images/Log%20in.png?raw=true)
 Log in to access user account details including their personal listings and reservation history.
 
