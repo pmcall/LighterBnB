@@ -1,12 +1,34 @@
 # LightBnB
 
+A simple multi-page AirBnB clone that uses server-side Javascript to display the information from queries to web pages via SQL queries.
+
+## Functionality:
+
+### Listings Directory
+![Listings](https://github.com/pmcall/lighterbnb/blob/master/images/Listings.png?raw=true)
+Displays properties and their details to easily browse the available properties.
+
+### User database and logins
+![Sign up](https://github.com/pmcall/lighterbnb/blob/master/images/Sign%20up.png?raw=true)
+
+![Login](https://github.com/pmcall/lighterbnb/blob/master/images/Log%20in.png?raw=true)
+Log in to access user account details including their personal listings and reservation history.
+
+### Listing Creation
+![Create a listing](https://github.com/pmcall/lighterbnb/blob/master/images/Listing%20Creation.png?raw=true)
+Add details of your listing to create its own entry into the database!
+
+### Search Feature
+![Search for properties](https://github.com/pmcall/lighterbnb/blob/master/images/Search%20Feature.png?raw=true)
+Search for the perfect property using features to filter by city, cost and rating!
+
 ## Project Structure
 
 ```
 .
 ├── db
 │   ├── json
-│   └── database.js
+│   └── database.js (where the magic happens)
 ├── public
 │   ├── javascript
 │   │   ├── components 
